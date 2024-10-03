@@ -1,5 +1,10 @@
 # Demo 01
 
+## https://demo-01-vert.vercel.app/
+
+## Inspiration
+this video on Dribbble has kicked off this specific inspiration repo: https://dribbble.com/shots/24207423-Time-and-Space-star-navigation-for-Brain
+
 ## Features
 - Switch from dark to light mode
 - animated glow ring button
