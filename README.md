@@ -9,10 +9,10 @@ this video on Dribbble has kicked off this specific inspiration repo: https://dr
 - Switch from dark to light mode
 - animated glow ring button
 - parallax bg mapped to body scroll
-£
+
 ## To-Do
-- [ ] Create the state for light/dark
-- [ ] Try to use alternate tailwind colors
+- [x] Create the state for light/dark
+- [x] Try to use alternate tailwind colors
 - [ ] Create bottom fixed nav
 - [ ] Create glow button
 - [ ] Component for parallax bg
