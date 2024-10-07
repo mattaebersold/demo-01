@@ -14,7 +14,7 @@ this video on Dribbble has kicked off this specific inspiration repo: https://dr
 - [x] Create the state for light/dark
 - [x] Try to use alternate tailwind colors
 - [ ] Create bottom fixed nav
-- [ ] Create glow button
+- [x] Create glow button
 - [ ] Component for parallax bg
 - [ ] Give it the choice of parallaxing to the content block, or the document?
 - [ ] Save demo boiler to a new repo for reuse
