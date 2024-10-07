@@ -1,8 +1,12 @@
+import { useTheme } from '../../providers/ThemeProvider';
+
 export default function ThemeMode() {
+  const { theme, toggleTheme } = useTheme();
+
   return (
-    <div className="
-      min-w-[30px] 
-      h-[30px] 
+    <div onClick={toggleTheme} className="
+      min-w-[40px] 
+      h-[40px] 
       bg-black 
       rounded-full 
       overflow-hidden 
@@ -16,7 +20,8 @@ export default function ThemeMode() {
       <span 
         className="
           cursor-pointer
-          text-[12px] 
+          text-[12px]
+          text-white 
           relative 
           top-[1px] 
           opacity-0 
@@ -29,7 +34,7 @@ export default function ThemeMode() {
           transition-all 
           duration-300 
           ease-in-out">
-        Switch to dark mode
+        Switch to {theme === 'light' ? 'Dark' : 'Light'} Mode
       </span>
     </div>
   );
